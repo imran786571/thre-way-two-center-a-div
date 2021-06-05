@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .parent_div {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2980b9;
+
+    position: relative;
+} */
+
+
+/* first way to center div */
+
+/* .child_div {
+    width: 60vw;
+    height: 60vh;
+    background-color: #1abc9c;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+
+
+
+
+/* second way to center div  */
+/* 
+.parent_div {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2980b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.child_div {
+    width: 60vw;
+    height: 60vh;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+
+} */
+
+
+
+/* third way to center a div */
+
+
+.parent_div {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2980b9;
+    display: grid;
+    place-items: center;
+
+}
+
+
+
+.child_div {
+    width: 60vw;
+    height: 60vh;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+
+}
